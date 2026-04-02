@@ -6,15 +6,16 @@
 
 body {
 	background: url("../img/flames.gif");
-	background-repeat: no-repeat; 
-	background-position: center; 
-	background-size: cover; 
 	margin: 1rem; 
 	background-color: black; 
 	color: whitesmoke; 
 	font-size: 5rem; 
 	overflow: hidden; 
-	
+	background-repeat: no-repeat; 
+	background-position: center; 
+	background-size: cover; 
+	transition-property: transform; 
+	transition-duration: 3s; 
 	
 }
 
